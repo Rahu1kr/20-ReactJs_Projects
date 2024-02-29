@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    text-align: center;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    padding: 50px 0;
+    background: #f1f1f1;
+}
+.notes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 140px;
+    margin-top: 50px;
+    
+    
+}
+
+.note  {
+  width: 150px;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 23%;
+  margin: 5px;
+  text-align: center;
+  padding: 30px 20px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.my_note {
+    text-align: center;
+    
+}
+
+
+
+.my_note textarea{
+    width: 100%;
+    height: 120px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.note_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.note_footer  .note_save{
+    padding: 5px 10px;
+    background: rgb(14, 180, 128);
+    border:  0; outline: 0;
+
+    
+}
+
+.note .del_btn{
+    padding: 5px 10px;
+    background: rgb(180, 14, 14);
+    border:  0; outline: 0;
+    margin-top: 50px;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    
+}
